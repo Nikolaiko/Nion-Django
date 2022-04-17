@@ -6,4 +6,4 @@ def initPage(request):
 
 
 def aboutPage(request):
-    return HttpResponse("About us")
+    return render(request, "about.html")
