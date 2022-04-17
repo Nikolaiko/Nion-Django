@@ -5,6 +5,7 @@ class GameCharacter(models.Model):
     damage = models.IntegerField()
     health = models.IntegerField()
     avatar = models.ImageField(blank=True)
+    fullImage = models.ImageField(blank=True)
     bio = models.CharField(max_length=70)
 
 
